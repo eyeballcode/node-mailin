@@ -3,7 +3,8 @@
   "version": "2.5.0",
   "description": "Artisanal inbound emails for every web app using nodejs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vithalreddy/node-mailin.git"
@@ -37,6 +38,6 @@
     "spamc": "^0.0.5",
     "spf-validator": "^0.2.0",
     "uuid": "^3.2.1",
-    "winston": "^3.7.2"
+    "winston": "^2.4.2"
   }
 }
