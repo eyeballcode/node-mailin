@@ -44,8 +44,8 @@ nodeMailin.on('validateSender', async function(session, address, callback) {
 /* Event emitted when the "To" address is received by the smtp server. */
 nodeMailin.on('validateRecipient', async function(session, address, callback) {
     console.log(address)
-        /* Here you can validate the address and return an error 
-         * if you want to reject it e.g: 
+        /* Here you can validate the address and return an error
+         * if you want to reject it e.g:
          *     err = new Error('Email address not found on server');
          *     err.responseCode = 550;
          *     callback(err);*/
