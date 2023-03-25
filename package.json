@@ -36,7 +36,7 @@
     "smtp-server": "^3.4.4",
     "spamc": "^0.0.5",
     "spf-validator": "^0.2.0",
-    "uuid": "^3.2.1",
+    "uuid": "^9.0.0",
     "winston": "^3.7.2"
   }
 }
