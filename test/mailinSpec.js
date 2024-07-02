@@ -3,7 +3,7 @@
 const xor = require('lodash/xor');
 const express = require('express');
 const fs = require('fs');
-const nodeMailin = require('../lib/node-mailin');
+const NodeMailin = require('../lib/node-mailin');
 const multiparty = require('multiparty');
 const SMTPConnection = require('smtp-connection');
 const shell = require('shelljs');
@@ -18,6 +18,8 @@ should = chai.Should();
 let server = express(),
 	conn;
 let doing = 0;
+
+let nodeMailin = new NodeMailin()
 
 before(function(done) {
 	conn = server.listen(3000, function(err) {
