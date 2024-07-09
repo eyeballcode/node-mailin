@@ -1,8 +1,8 @@
 "use strict";
 
-const nodeMailin = require("../lib/node-mailin");
+const NodeMailin = require("../lib/node-mailin");
 //const nodenodeMailin = require('node-nodeMailin');
-
+const nodeMailin = new NodeMailin()
 /*give node access to ports below 1000 using followign command
  * INFO: use "sudo setcap 'cap_net_bind_service=+ep' `which node`"
  * to set required permission to node for using port 25
